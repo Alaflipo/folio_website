@@ -145,7 +145,7 @@ export const strengths: Strength[] = [
 
 export const strengthsSoftware: Strength[] = [
   {
-    name: "Javascript",
+    name: "Javascript / Typescript",
     strength: 3,
   },
   {
@@ -178,6 +178,10 @@ export const strengthsSoftware: Strength[] = [
   },
   {
     name: "GIT",
+    strength: 3,
+  },
+  {
+    name: "Figma",
     strength: 3,
   },
   {

@@ -1,13 +1,5 @@
 import * as React from "react";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
-import {
-  Chip,
-  Divider,
-  List,
-  ListItem,
-  Stack,
-  Typography,
-} from "@mui/material";
+import { Chip, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import { DottedDivider } from "./InfoBlock";
 
@@ -32,7 +24,7 @@ function StrengthsBlock(props: StrengthBlockProps) {
             m: 0.5,
           }}
           label={
-            <Typography variant="body1" color="#36455a">
+            <Typography variant="body1" color="primary.dark">
               {strength.name}
             </Typography>
           }
